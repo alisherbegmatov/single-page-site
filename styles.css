@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #000000
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  padding: 0 50px 0 50px;
+}
+
+#bugatti1 {
+  width: 100%;
+}
+
+section {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+}
+
+#bugatti2, #bugatti3 {
+  width: 50%
+}
+
+#section3 {
+  flex-direction: row-reverse;
+}
+
+#bugatti4 {
+  width: 100%;
+}
+
+#bugatti5 {
+  width: 100%;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+p {
+  font-size:100%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ff0000;
+  border-radius: 12px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contact {
+  background-color: ##000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff
+}
+
+#contact > form {
+  display: flex;
+}
+
+#contact > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 1em 0;
+}
+
+label span {
+  margin: 1em 0;
+}
+
+input, textarea {
+  border: 1px solid #000;
+  padding: 0.5em;
+  margin: 0 2em 0 0;
+  width: 20em;
+  font-size: 1em;
+}
+
+textarea {
+  height: 9em;
+  margin: 0 0 0 0;
+}
+
+form button {
+  width: auto;
+  font-size: 1em;
+  margin: 1em 0;
+  align-self: flex-end;
+  padding: 0.5em 1em;
+  background-color:#ffffff;
+  color: #000000;
+  border: none;
+}
