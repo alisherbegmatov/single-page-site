@@ -11,7 +11,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -38,12 +41,33 @@ section {
   color: white;
 }
 
+#section1{
+  background-image: url("images/bugatti1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #bugatti2, #bugatti3 {
   width: 50%
 }
-
+#section2{
+  background-image: url("images/bugatti2.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #section3 {
   flex-direction: row-reverse;
+  background-image: url("images/bugatti1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #bugatti4 {
